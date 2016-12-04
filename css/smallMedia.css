@@ -1,0 +1,46 @@
+#hideSize{
+    display: none;
+}
+.buttonValues{
+    padding-left: 210px;
+    text-align: left;
+}
+
+.scaleY, .scaleX{
+    display: none;
+}
+#section{
+    margin-top: 10vh;
+}
+.variables{
+    position: relative;
+    height: inherit;
+}
+.menu p{
+    margin-left: 10px;
+}
+.submitValues{
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+}
+.astronomicMenu{
+    font-size: 13px;
+    padding-left: 0;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+.hover-grab:hover{
+    cursor: default;
+}
+.grabber{
+    background-color: #0c2632;
+    color: white;
+    position: static;
+    width: 100%;
+    border: 1px solid black;
+}
+p, input, .button, .showHide, .play, .speed, .menuTime,
+.astronomicMenu, .now-hereValues, .submitValues, .now-here, .planetBox{
+    font-size: 1em;
+}

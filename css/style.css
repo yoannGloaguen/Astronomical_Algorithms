@@ -1,0 +1,293 @@
+
+/*we dont want ugly borders on focus in firefox*/
+*::-moz-focus-inner, *[type="button"]::-moz-focus-inner, a:focus{
+    outline:none;
+    border : 0;
+}
+/*we dont want ugly margin on body*/
+body{
+    margin:0;
+}
+/*we dont want ugly underline and color a*/
+a{
+    text-decoration: none;
+    color: #5e1620;
+}
+a:hover{
+    color: #7a0a09;
+}
+*{
+    font-family: "Arial Unicode Ms", Arial, Dejavu Sans, serif;
+}
+p{
+    font-size: 13px;
+    margin: 0;
+    margin-top: 3px;
+}
+input{
+    margin: 0; padding: 0;
+    border: none;
+    color: #757a78;
+    font-size: 13px;
+    background-color: rgba(0,0,0,0);
+}
+/* for section -> canvas */
+canvas{
+    position: absolute;
+}
+section{
+    position: absolute;
+}
+.signs{
+    text-align: center;
+    position: absolute;
+    color: #0a1d27;
+}
+.signs div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.hover-pointer:hover{
+    cursor: pointer;
+}
+
+/*for aside -> inputs */
+.inputs{
+    background-color: #01121a;
+    color: white;
+}
+.button{
+    height: 21px;
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+    background-color: #031a22;
+    border-bottom: 1px solid #01121a;
+}
+.play{
+    height: 21px;
+    background-color: #080e16;
+    width: 10%;
+    text-align: center;
+    color: #757a78;
+    font-size: 13px;
+}
+.speed{
+    height: 21px;
+    background-color: #080e16;
+    width: 28%;
+    text-align: center;
+    color: #757a78;
+    font-size: 13px;
+}
+
+.play:hover{
+    color: white;
+}
+.not100{
+    min-width: 35% !important;
+    max-width: 35% !important;
+}
+.grabber{
+    background-color: #0c2632;
+    color: white;
+    position: absolute;
+    width: 350px;
+    border: 1px solid black;
+    z-index: 2;
+}
+.hover-grab:hover{
+    cursor: grab;
+}
+.float-right{
+    float: right;
+    bottom: 10px;
+}
+.menu{
+    margin-top: 0;
+}
+.menu p{
+    min-height: 20px;
+    border-bottom: 1px solid #01121a;
+    padding-left: 10px;
+}
+.padding-5{
+    padding: 2px 5px 2px 5px;
+}
+.varInputs{
+    background-color: #0a1d27;
+}
+.menuVar{
+    width: 100%;
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.menu-inline{
+    min-width: 100%;
+}
+.optionButtons{
+    background-color: #031a22;
+}
+.optionsToShow{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.optionsToShow p{
+    margin-left: 20px;
+}
+.small-margin{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*for aside -> variables */
+.variables{
+    position: absolute;
+}
+.variablesBlocks{
+    padding-left: 20px;
+    width: 100%;
+    display: none;
+}
+.variablesBlocks p{
+    padding-left: 15px;
+    font-size: 12px;
+}
+.variablesBlocks p span{
+    padding-left: 10px;
+}
+.variablesMargin{
+    margin-top: 10px;
+}
+.menuTime{
+    background-color: #041016;
+    width: 100%;
+    font-size: 13px;
+}
+.astronomicMenu{
+    font-size: 13px;
+    text-decoration: underline;
+    color: #031a22;
+    padding-left: 0;
+    margin-left: 28px;
+    margin-bottom: 5px;
+}
+.astronomicMenu:hover{
+    color: #b50000;
+}
+.now-hereValues{
+    background-color: #031a22;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+}
+.submitValues{
+    background-color: #031a22;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+}
+.now-here{
+    background-color: #031a22;
+    width: 49%;
+    text-align: center;
+    font-size: 13px;
+}
+.button:hover, .optionButtons:hover, #valuesMenu:hover, .now-here:hover,
+.submitValues:hover , .submitValues:hover input, .astronomic:hover, .showHide:hover,
+.showOptions:hover{
+    background-color: #4c1b17;
+    color: white !important;
+    cursor: pointer;
+}
+.scaleY:hover{
+    background-color: #4c1b17;
+    cursor: n-resize;
+}
+.scaleX:hover{
+    background-color: #4c1b17;
+    cursor: e-resize;
+}
+.jMDiv{
+    width: 100%;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.jMLink{
+    margin-right: 20px;
+    font-style: italic;
+    text-decoration: underline;
+}
+.menu a{
+    color: #757a78;
+}
+.width-50{
+    width: 50%;
+}
+#dateValue{
+    color: white;
+}
+.titleVariables{
+    font-size: 12px;
+    width: 100%;
+    color: #757a78;
+}
+.none{
+    display: none;
+}
+#astroShow{
+    font-size: 20px;
+}
+.planetBox{
+    width: 100%;
+    margin-left: 10px;
+}
+.planetBox span{
+    font-size: 12px;
+}
+.astronomic{
+    border-bottom: 1px solid #01121a;
+    padding: 5px 0 10px 0;
+}
+.showHide{
+    text-align: right;
+    width: 100%;
+    background-color: #01121a;
+    font-size: 10px;
+    color: #757a78;
+}
+.scaleY{
+    width: 100%;
+    background-color: #01121a;
+    height: 5px;
+}
+.scaleX{
+    position: absolute;
+    margin: auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 5px;
+    padding: 0;
+    top: -1px;
+    right: -5px;
+    height: 100%;
+    background-color: #01121a;
+    color: #757a78;
+}
+.houses{
+    font-family: Verdana, serif;
+}
+.showOptions{
+    height: 21px;
+    background-color: #080e16;
+    min-width: 100%;
+    padding-left: 10px;
+    text-align: left;
+    color: white;
+    font-size: 13px;
+}
